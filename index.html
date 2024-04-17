@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Cadastro</h1>
+
+    <div class="questions">
+
+        <form action="teste.php" method="post" name="Cadastro"></form>
+
+        <fieldset>
+            <legend>Login</legend>
+            <p>Nome: </p>
+            <input type="text" name="nome" id="nome">
+
+            <p>Telefone: </p>
+            <input type="text" name="telefone" id="telefone">
+
+            <p>Email: </p>
+            <input type="text" name="email" id="email">
+
+            <p>Data de Nascimento: </p>
+            <input type="month" name="nascimento" id="nascimento">
+
+            <p>Data e Hora para contato: </p>
+            <input type="month" name="contato" id="contato">
+        </fieldset>
+
+        <p>Escolha a sua Profissão: </p>
+        <select name="profissao" id="profissao">
+            <option value="engenheiro">Engenheiro</option>
+            <option value="advogado">Advogado</option>
+            <option value="programador">Programador</option>
+            <option value="vendedor-de-curso">Vendedor de Curso</option>
+            <option value="professor">Professor</option>
+        </select>
+
+        <p>Quantas TVs você tem na sua casa?</p>
+        <div class="tvs">
+            <input type="radio" name="1tv" id="1tv">1 Televisão
+            <input type="radio" name="2tv" id="2tv">2 Televisão
+            <input type="radio" name="3tv" id="3tv">3 Televisão
+            <input type="radio" name="mais4" id="mais4">Mais de 4 Televisão
+        </div>
+
+        <br>
+        <br>
+        <hr>
+        <label for="Info">
+            <h2>Observações Diárias:</h2>
+        </label>
+        <Textarea name="observacoes"></Textarea>
+
+    </div>
+</body>
+</html>
